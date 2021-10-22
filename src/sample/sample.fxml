@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXListView?>
+<?import com.jfoenix.controls.JFXNodesList?>
+<?import de.jensd.fx.glyphs.GlyphsStack?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <AnchorPane prefHeight="391.0" prefWidth="404.0">
+         <children>
+            <Label layoutX="114.0" layoutY="84.0" text="Label" />
+            <ProgressBar layoutX="22.0" layoutY="196.0" prefWidth="200.0" progress="0.0" />
+            <GlyphsStack layoutX="251.0" layoutY="115.0" />
+            <JFXListView layoutX="202.0" layoutY="-4.0" />
+            <JFXNodesList layoutX="302.0" layoutY="195.0" />
+            <JFXButton layoutX="251.0" layoutY="59.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</GridPane>
